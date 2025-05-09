@@ -1,0 +1,28 @@
+pack.name=§aSwag Pack [R] dev
+pack.description= Swag
+
+item.spawn_egg.entity.swag:mango_merchant.name=Big Man Business Card
+entity.swag:mango_merchant.name=Big Man
+
+item.swag:mango.name=Mango
+
+item.spawn_egg.entity.swag:spawn_tp.name=Spawn TP
+entity.swag:spawn_tp.name=Spawn TP
+
+item.spawn_egg.entity.swag:frye_shiver.name=Deep Cut Business Cards
+entity.swag:frye_shiver.name=Frye and Shiver
+
+item.spawn_egg.entity.swag:mod_tp.name=Mom TP
+entity.swag:mod_tp.name=Mod TP
+
+item.swag:swag_money.name=§6§lSwag Money
+
+item.spawn_egg.entity.swag:swag_npc.name=Swag NPC Spawn Egg
+
+item.spawn_egg.entity.swag:magmoo.name=Magmoo Spawn Egg
+entity.swag:magmoo.name=Magmoo
+
+item.swag:spicy_steak.name=Spicy Steak
+
+item.spawn_egg.entity.swag:autism_creature.name=Autism Egg
+entity.swag:autism_creature.name=Autism Creature

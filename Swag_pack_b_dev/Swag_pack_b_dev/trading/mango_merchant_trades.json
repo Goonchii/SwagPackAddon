@@ -1,0 +1,36 @@
+{
+    "tiers": [
+        {
+            "trades": [
+                {
+                    "wants": [
+                        {
+                            "item": "minecraft:fish",
+                            "quantity": 1
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "swag:mango",
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "wants":[
+                        {
+                            "item": "minecraft:salmon",
+                            "quantity": 1
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "swag:mango",
+                            "quantity": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "swag:mango_merchant",
+        "materials": { "default": "villager" },
+        "textures": {
+          "default": "textures/entity/mango_merchant"
+        },
+        "geometry": {
+          "default": "geometry.mango_merchant"
+        },
+        "render_controllers": [ "controller.render.mango_merchant" ],
+        "spawn_egg": {
+          "texture": "mango_merchant_business_card"
+        },
+        "animations": {
+          "look_at_target": "animation.common.look_at_target",
+          "walk": "animation.mango_merchant.walk",
+          "idle": "animation.mango_merchant.idle"
+        },
+        "scripts": {
+          "animate": [
+            "look_at_target",
+            { "idle": "!query.ground_speed" },
+            { "walk": "query.ground_speed" }
+          ]
+        }
+      }
+    }
+  }
+  

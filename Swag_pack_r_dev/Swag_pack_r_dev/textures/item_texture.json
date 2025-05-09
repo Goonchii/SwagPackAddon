@@ -1,0 +1,33 @@
+{
+    "resource_pack_name": "swag",
+    "texture_name": "atlas.items",
+    "texture_data": {
+      "mango_merchant_business_card": {
+        "textures": "textures/items/mango_merchant_business_card"
+      },
+      "mango": {
+        "textures": "textures/items/mango"
+      },
+      "spawn_tp_egg": {
+        "textures": "textures/items/spawn_tp_egg"
+      },
+      "frye_shiver_business_cards": {
+        "textures": "textures/items/frye_shiver_business_cards"
+      },
+      "mod_tp_egg": {
+        "textures": "textures/items/mod_tp_egg"
+      },
+      "swag_money": {
+        "textures": "textures/items/swag_money"
+      },
+      "swag_npc_spawn_egg": {
+        "textures": "textures/items/swag_npc_spawn_egg"
+      },
+      "magmoo_spawn_egg": {
+        "textures": "textures/items/magmoo_spawn_egg"
+      },
+      "spicy_steak": {
+        "textures": "textures/items/spicy_steak"
+      }
+    }
+}

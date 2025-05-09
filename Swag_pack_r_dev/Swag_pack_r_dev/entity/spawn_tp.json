@@ -1,0 +1,27 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "swag:spawn_tp",
+        "materials": { "default": "villager" },
+        "textures": {
+          "default": "textures/entity/spawn_tp"
+        },
+        "geometry": {
+            "default": "geometry.spawn_tp"
+        },
+        "render_controllers": ["controller.render.spawn_tp"],
+        "spawn_egg": {
+            "texture": "spawn_tp_egg"
+        },
+        "animations": {
+            "idle": "animation.spawn_tp.idle"
+        },
+        "scripts": {
+            "animate": [
+                "idle"
+            ]
+        }
+    }
+}
+}

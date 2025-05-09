@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "minecraft:nametag"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "X  ",
+        " O ",
+        "  L"
+      ],
+      "key": {
+        "X": {
+          "item": "minecraft:string"
+        },
+        "O": {
+            "item": "minecraft:iron_ingot"
+        },
+        "L": {
+            "item": "minecraft:paper"
+        }
+      },
+      "result": {
+        "item": "minecraft:nametag"
+      }
+    }
+  }

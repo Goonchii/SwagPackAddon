@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "minecraft:saddle"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "XOX",
+        "L L"
+      ],
+      "key": {
+        "X": {
+          "item": "minecraft:string"
+        },
+        "O": {
+            "item": "minecraft:leather"
+        },
+        "L": {
+            "item": "minecraft:tripwire_hook"
+        }
+      },
+      "result": {
+        "item": "minecraft:saddle"
+      }
+    }
+  }

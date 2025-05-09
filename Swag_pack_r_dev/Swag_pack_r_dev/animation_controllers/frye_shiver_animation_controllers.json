@@ -1,0 +1,24 @@
+{
+	"format_version": "1.14.0",
+	"animation_controllers": {
+		"controller.animation.frye_shiver.run": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["idle"],
+					"transitions": [
+						{"running": "q.ground_speed > 1.0"}
+					],
+					"blend_transition": 0.2
+				},
+				"running": {
+					"animations": ["run"],
+					"transitions": [
+						{"idle": "q.ground_speed < 0.5"}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		}
+	}
+}

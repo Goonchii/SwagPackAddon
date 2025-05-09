@@ -1,0 +1,59 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "swag:frye_shiver",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:health": {
+            "max": 20,
+            "value": 20
+        },
+        "minecraft:physics": {
+
+        },
+        "minecraft:pushable": {
+            "is_pushable": true
+        },
+        "minecraft:behavior.look_at_player": {
+          "priority": 4,
+          "look_distance": 6.0,
+          "look_time": [1,4],
+          "probability": 0.03
+        },
+        "minecraft:behavior.look_at_entity": {
+          "priority": 5,
+          "look_distance":6.0,
+          "look_time": [1,4],
+          "probability":0.03
+        },
+        "minecraft:behavior.random_look_around": {
+          "priority":6,
+          "look_distance":6.0,
+          "probability":0.03
+        },
+        "minecraft:navigation.walk": {
+  
+        },
+        "minecraft:movement.basic": {
+  
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 3
+        },
+        "minecraft:behavior.panic": {
+          "priority": 1,
+          "speed_multiplier": 1.25
+        },
+        "minecraft:persistent": {
+
+        }
+      }
+    }
+}

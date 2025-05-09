@@ -1,0 +1,25 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "swag:mango_merchant"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "XXX",
+        "XOX",
+        "XXX"
+      ],
+      "key": {
+        "X": "minecraft:paper",
+        "O": "swag:mango"
+        },
+      "result": {
+        "item": "minecraft:spawn_egg",
+        "data": "query.get_actor_info_id('swag:mango_merchant')"
+      }
+      }
+    }
+  

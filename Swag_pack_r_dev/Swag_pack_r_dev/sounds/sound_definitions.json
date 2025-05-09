@@ -1,0 +1,65 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "mob.mango.hurt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/mango_merchant/hurt1",
+                "sounds/mob/mango_merchant/hurt2",
+                "sounds/mob/mango_merchant/hurt3",
+                "sounds/mob/mango_merchant/hurt4"]
+        },
+        "mob.mango.death": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/mango_merchant/die"
+            ]
+        },
+        "mob.mango.idle": {
+            "category":"neutral",
+            "sounds": [
+                "sounds/mob/mango_merchant/idle1",
+                "sounds/mob/mango_merchant/idle2",
+                "sounds/mob/mango_merchant/idle3"
+            ]
+        },
+
+        "mob.spawn_tp.idle": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/spawn_tp/idle1",
+                "sounds/mob/spawn_tp/idle2",
+                "sounds/mob/spawn_tp/idle3"
+            ]
+        },
+        "mob.spawn_tp.hurt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/spawn_tp/hurt"
+            ]
+        },
+        "mob.spawn_tp.death": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/spawn_tp/die"
+            ]
+        },
+        "mob.magmoo.hurt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/magmoo/hurt1",
+                "sounds/mob/magmoo/hurt2",
+                "sounds/mob/magmoo/hurt3"
+            ]
+        },
+        "mob.magmoo.say": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/magmoo/say1",
+                "sounds/mob/magmoo/say2",
+                "sounds/mob/magmoo/say3",
+                "sounds/mob/magmoo/say4"
+            ]
+        }
+    }
+}

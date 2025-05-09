@@ -1,0 +1,21 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.swag_npc": {
+        "arrays": {
+            "textures": {
+                "Array.skins": [
+                    "Texture.swag_npc_1",
+                    "Texture.swag_npc_2",
+                    "Texture.swag_npc_3",
+                    "Texture.swag_npc_4"
+                ]
+            }
+        },
+        "geometry": "Geometry.default",
+        "materials": [ { "*": "Material.default" } ],
+        "textures": [ "Array.skins[query.variant]" ]
+      }
+    }
+  }
+  

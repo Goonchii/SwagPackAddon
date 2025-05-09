@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "swag:magmoo",
+        "min_engine_version": "1.8.0",
+        "materials": { "default": "skeleton" },
+        "textures": {
+          "default": "textures/entity/magmoo"
+        },
+        "geometry": {
+          "default": "geometry.magmoo"
+        },
+        "animations": {
+          "setup": "animation.cow.setup",
+          "walk": "animation.quadruped.walk",
+          "look_at_target": "animation.common.look_at_target",
+          "baby_transform": "animation.cow.baby_transform",
+          "idle": "animation.magmoo.idle"
+        },
+        "scripts": {
+          "animate": [
+            { "walk": "query.modified_move_speed" },
+            "look_at_target",
+            { "baby_transform": "query.is_baby" },
+            "idle"
+          ]
+        },
+        "render_controllers": [ "controller.render.magmoo" ],
+        "spawn_egg": {
+          "texture": "magmoo_spawn_egg"
+        }
+      }
+    }
+  }

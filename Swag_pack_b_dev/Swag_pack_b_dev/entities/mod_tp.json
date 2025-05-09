@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "swag:mod_tp",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:health": {
+            "max": 1,
+            "value": 1
+        },
+        "minecraft:navigation.float": {
+
+        },
+        "minecraft:knockback_resistance": {
+          "value": 1.0
+        },
+        "minecraft:nameable": {
+          "allow_name_tag_renaming": true,
+          "always_show": true
+        }
+      }
+    }
+}

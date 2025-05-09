@@ -1,0 +1,30 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "swag:swag_npc",
+        "materials": { "default": "villager" },
+        "textures": {
+          "swag_npc_1": "textures/entity/swag_npc/alien_bman",
+          "swag_npc_2": "textures/entity/swag_npc/cool_steve",
+          "swag_npc_3": "textures/entity/swag_npc/angy_alex",
+          "swag_npc_4": "textures/entity/swag_npc/garfield"
+        },
+        "geometry": {
+          "default": "geometry.humanoid"
+        },
+        "render_controllers": [ "controller.render.swag_npc" ],
+        "spawn_egg": {
+          "texture": "swag_npc_spawn_egg"
+        },
+        "animations": {
+          "look_at_target": "animation.common.look_at_target"
+        },
+        "scripts": {
+          "animate": [
+            "look_at_target"
+          ]
+        }
+      }
+    }
+  }

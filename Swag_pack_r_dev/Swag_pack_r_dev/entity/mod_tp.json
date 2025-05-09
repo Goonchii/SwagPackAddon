@@ -1,0 +1,15 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "swag:mod_tp",
+        "materials": { "default": "villager" },
+        "textures": {
+          "default": "textures/entity/mod_tp"
+        },
+        "spawn_egg": {
+            "texture": "mod_tp_egg"
+    }
+}
+}
+}

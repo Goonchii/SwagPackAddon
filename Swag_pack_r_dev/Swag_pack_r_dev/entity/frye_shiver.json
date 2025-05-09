@@ -1,0 +1,29 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "swag:frye_shiver",
+        "materials": { "default": "villager" },
+        "textures": {
+          "default": "textures/entity/frye_shiver"
+        },
+        "geometry": {
+            "default": "geometry.frye_shiver"
+        },
+        "render_controllers": ["controller.render.frye_shiver"],
+        "spawn_egg": {
+            "texture": "frye_shiver_business_cards"
+        },
+        "animations": {
+          "run": "animation.frye_shiver.run",
+          "idle": "animation.frye_shiver.idle"
+        },
+        "scripts": {
+          "animate": [
+            { "idle": "!query.ground_speed" },
+            { "run": "query.ground_speed" }
+          ]
+        }
+}
+}
+}

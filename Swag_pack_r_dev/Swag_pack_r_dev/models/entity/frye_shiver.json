@@ -1,0 +1,189 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.frye_shiver",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "FryeAndShiver",
+					"pivot": [0, 6, 0]
+				},
+				{
+					"name": "Shiver",
+					"parent": "FryeAndShiver",
+					"pivot": [-5, 6, 0]
+				},
+				{
+					"name": "ShiverLower",
+					"parent": "Shiver",
+					"pivot": [-5, 4, 0]
+				},
+				{
+					"name": "ShiverLeftLeg",
+					"parent": "ShiverLower",
+					"pivot": [-4, 4, 0],
+					"cubes": [
+						{"origin": [-5, 0, -1], "size": [2, 4, 2], "uv": [24, 26]},
+						{"origin": [-5, 0, -2], "size": [2, 1.5, 1], "uv": [32, 11]}
+					]
+				},
+				{
+					"name": "ShiverRightLeg",
+					"parent": "ShiverLower",
+					"pivot": [-6, 4, 0],
+					"cubes": [
+						{"origin": [-7, 0, -2], "size": [2, 1.5, 1], "uv": [8, 32]},
+						{"origin": [-7, 0, -1], "size": [2, 4, 2], "uv": [27, 5]}
+					]
+				},
+				{
+					"name": "ShiverUpper",
+					"parent": "Shiver",
+					"pivot": [-5, 4, 0]
+				},
+				{
+					"name": "ShiverRightArm",
+					"parent": "ShiverUpper",
+					"pivot": [-7, 9, 0]
+				},
+				{
+					"name": "ShiverArm",
+					"parent": "ShiverRightArm",
+					"pivot": [-7, 9, 0],
+					"cubes": [
+						{"origin": [-8.5, 4, -1], "size": [1.5, 5, 2], "uv": [10, 21]}
+					]
+				},
+				{
+					"name": "ShiverFan",
+					"parent": "ShiverRightArm",
+					"pivot": [-8, 4, -1],
+					"cubes": [
+						{"origin": [-9.5, 4, -5], "size": [4, 0, 4], "uv": [36, 7]}
+					]
+				},
+				{
+					"name": "ShiverHead",
+					"parent": "ShiverUpper",
+					"pivot": [-5, 9, 0],
+					"cubes": [
+						{"origin": [-7, 6, 2], "size": [4, 3, 0], "uv": [30, 34]},
+						{"origin": [-8, 10, -0.5], "size": [1, 2, 1], "uv": [0, 0]},
+						{"origin": [-3, 10, -0.5], "size": [1, 2, 1], "uv": [0, 8]},
+						{"origin": [-5, 10, -3], "size": [2, 3, 1], "uv": [30, 24]},
+						{"origin": [-6, 12, 1], "size": [2, 2, 2], "uv": [6, 28]},
+						{"origin": [-7, 9, -2], "size": [4, 4, 4], "uv": [0, 8]}
+					]
+				},
+				{
+					"name": "ShiverLeftArm",
+					"parent": "ShiverUpper",
+					"pivot": [-3, 9, 0],
+					"cubes": [
+						{"origin": [-3, 4, -1], "size": [1.5, 5, 2], "uv": [18, 21]}
+					]
+				},
+				{
+					"name": "ShiverBody",
+					"parent": "ShiverUpper",
+					"pivot": [-5, 4, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "ShiverBody",
+					"pivot": [-5, 4, 0],
+					"cubes": [
+						{"origin": [-7, 4, -1], "size": [4, 5, 2], "uv": [14, 14]}
+					]
+				},
+				{
+					"name": "Cape",
+					"parent": "ShiverBody",
+					"pivot": [-5, 9, 1],
+					"cubes": [
+						{"origin": [-8, 2, 1], "size": [6, 7, 0], "pivot": [-5, 9, 1], "rotation": [12.5, 0, 0], "uv": [35, 0]}
+					]
+				},
+				{
+					"name": "Frye",
+					"parent": "FryeAndShiver",
+					"pivot": [5, 6, 0]
+				},
+				{
+					"name": "FryeUpper",
+					"parent": "Frye",
+					"pivot": [5, 4, 0]
+				},
+				{
+					"name": "FryeHead",
+					"parent": "FryeUpper",
+					"pivot": [5, 9, 0],
+					"cubes": [
+						{"origin": [3, 9, -2], "size": [4, 4, 4], "uv": [0, 0]},
+						{"origin": [3, 7, 2], "size": [2, 2, 0], "uv": [14, 33]},
+						{"origin": [6, 10, -3], "size": [2, 3, 3], "uv": [13, 5]},
+						{"origin": [7, 10, -0.5], "size": [2, 2, 1], "uv": [31, 31]},
+						{"origin": [5, 13, 0], "size": [2, 1, 2], "uv": [27, 0]},
+						{"origin": [1, 10, -0.5], "size": [2, 2, 1], "uv": [20, 5]},
+						{"origin": [0, 11, -0.5], "size": [1, 1, 1], "uv": [16, 11]},
+						{"origin": [9, 11, -0.5], "size": [1, 1, 1], "uv": [10, 16]}
+					]
+				},
+				{
+					"name": "FryeBody",
+					"parent": "FryeUpper",
+					"pivot": [5, 4, 0],
+					"cubes": [
+						{"origin": [3, 4, -1], "size": [4, 5, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "FryeLarm",
+					"parent": "FryeUpper",
+					"pivot": [7, 9, 0],
+					"cubes": [
+						{"origin": [7, 4, -1], "size": [1.5, 5, 2], "uv": [0, 23]}
+					]
+				},
+				{
+					"name": "FryeRArm",
+					"parent": "FryeUpper",
+					"pivot": [3, 9, 0],
+					"cubes": [
+						{"origin": [1.5, 4, -1], "size": [1.5, 5, 2], "uv": [26, 13]}
+					]
+				},
+				{
+					"name": "FryeLower",
+					"parent": "Frye",
+					"pivot": [5, 4, 0]
+				},
+				{
+					"name": "FryeLeftLeg",
+					"parent": "FryeLower",
+					"pivot": [6, 4, 0],
+					"cubes": [
+						{"origin": [5, 0, -1], "size": [2, 2, 2], "uv": [14, 28]},
+						{"origin": [5, 2, -1.5], "size": [2.5, 2, 3], "uv": [20, 0]}
+					]
+				},
+				{
+					"name": "FryeRiightLeg",
+					"parent": "FryeLower",
+					"pivot": [4, 4, 0],
+					"cubes": [
+						{"origin": [2.5, 2, -1.5], "size": [2.5, 2, 3], "uv": [20, 8]},
+						{"origin": [3, 0, -1], "size": [2, 2, 2], "uv": [0, 30]}
+					]
+				}
+			]
+		}
+	]
+}

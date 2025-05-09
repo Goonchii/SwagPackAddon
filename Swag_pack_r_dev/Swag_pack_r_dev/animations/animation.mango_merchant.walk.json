@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mango_merchant.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"leftArm": {
+					"rotation": {
+						"0.0": [-45, 0, 0],
+						"0.5": [45, 0, 0],
+						"1.0": [-45, 0, 0]
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [45, 0, 0],
+						"0.5": [-45, 0, 0],
+						"1.0": [45, 0, 0]
+					}
+				},
+				"leftLeg": {
+					"rotation": {
+						"0.0": [-45, 0, 0],
+						"0.5": [45, 0, 0],
+						"1.0": [-45, 0, 0]
+					}
+				},
+				"rightLeg": {
+					"rotation": {
+						"0.0": [45, 0, 0],
+						"0.5": [-45, 0, 0],
+						"1.0": [45, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}
