@@ -1,9 +1,0 @@
-{
-    "resource_pack_name": "mango",
-    "texture_name": "atlas.items",
-    "texture_data": {
-      "mango_merchant_item": {
-        "textures": "textures/items/mango_merchant_item"
-      }
-    }
-}
