@@ -1,0 +1,13 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "mango_merchant": {
+                "events": {
+                    "hurt": {
+                        "sound": "mob.mango.hurt"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "mango:mango_merchant",
+        "materials": { "default": "villager" },
+        "textures": {
+          "default": "textures/entity/mango_merchant"
+        },
+        "geometry": {
+          "default": "geometry.mango_merchant"
+        },
+        "render_controllers": [ "controller.render.mango_merchant" ],
+        "spawn_egg": {
+          "texture": "mango_merchant_item"
+        }
+      }
+    }
+  }
+  
